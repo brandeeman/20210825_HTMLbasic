@@ -1,0 +1,21 @@
+*HTML이란? hyper text markup language
+-처음 목적 : 인터넷 상의 문서
+
+웹의 구성
+<head> - html : 구조
+<style> - css : 색깔
+- javascript : 행동
+
+---
+
+*Html의 확장자
+-.html
+-.htm
+
+->브라우저 열렸다는 것은 웹 페이지라는 뜻
+
+---
+
+*서버 - 클라이언트
+
+---

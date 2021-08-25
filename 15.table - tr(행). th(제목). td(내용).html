@@ -1,0 +1,63 @@
+<!-- table 만드는 법 : tr, th, td -->
+<!-- table 단점 : 무겁다. 메모리를 많이 차지한다. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px 10px;
+        }
+
+        th {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width:100%">
+        <!-- style="width:100%" : 전체 화면 비율 -->
+        <tr>
+            <th>학년</th>
+            <th>반</th>
+            <th>학생 수</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1학년</td>
+            <!-- rowspan : 위아래 합치기 -->
+            <td>1반</td>
+            <td>18명</td>
+        </tr>
+        <tr>
+            <td>2반</td>
+            <td>19명</td>
+        </tr>
+        <tr>
+            <td>3반</td>
+            <td>14명</td>
+        </tr>
+        <tr>
+            <td>학생 총합수</td>
+            <td colspan="2">55명</td>
+            <!-- 옆 칸 합치기  -->
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+border-collapse: collapse;
+
+---
+
+*빈 링크 쓸 때
+빈 link 지정 : href="#" "target="_blank"
+
+*빈 링크
+/link
+
+*용어 : 디폴트 : 기본값
+
+---
+
+*왠만하면 inline CSS는 쓰지 않는다. : 유지 보수가 어렵다.
+
+---
+
+svg : 글자로 그림을 그린다.
+
+rect : 네모
+
+circle : 동그라미
+
+---
+
+시맨틱 요소 : div 와 똑같은 역활 : 의미를 부여했을 뿐
+-다른 개발자가 볼 때 편하다.
+
+----------
+
+*block : 한 영역 전체를 차지한다. 
+-width를 줄여도 안 된다.
+
+*block을 inline 형식으로 쓰고 싶으면?
+display : inline
+
+---
+
+datalist : 선택하고 편집할 수 있다.
+
+---
+
+stactic : 정의할 필요가 없다.
+
+---
+
+viewport : 디바이스 픽셀에 맞추겠다. 
+
+---

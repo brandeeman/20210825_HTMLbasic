@@ -1,0 +1,88 @@
+<!-- table css 주는 법 : table, tr, th, td 세 곳 다 적용 -->
+<!-- table style = "width:100%" -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css 주는 법 */
+        /* 세 곳 다 적용이 된다. */
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px 10px;
+        }
+
+        th {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>이메일</th>
+                <th>연락처</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>유재석</td>
+                <td>brandee@gmail.com</td>
+                <td>777-777-7777</td>
+            </tr>
+            <tr>
+                <td>방정식</td>
+                <td>math1357@gmail.com</td>
+                <td>000-000-0000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+
+    <table style="width:100%">
+        <tr>
+            <th>학년</th>
+            <th>반</th>
+            <th>학생 수</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1학년</td>
+            <td>1반</td>
+            <td>18명</td>
+        </tr>
+        <tr>
+            <td>2반</td>
+            <td>19명</td>
+        </tr>
+        <tr>
+            <td>3반</td>
+            <td>14명</td>
+        </tr>
+        <tr>
+            <td>학생 총합수</td>
+            <td colspan="2">55명</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

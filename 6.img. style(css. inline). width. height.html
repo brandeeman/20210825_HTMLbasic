@@ -1,0 +1,36 @@
+<!-- 이미지(사진) 태그 만드는 법 : <img src="">. 절대 주소. 상대 주소 -->
+<!-- 종료 태그가 없다. : 무언가를 넣을 수 없다. -->
+
+<!-- 이미지를 넣는 두가지 경로 -->
+<!-- 1.절대 주소 : 예)(오른쪽 클릭) 이미지 주소 복사 -->
+<!-- 2.상대 주소 : 같은 폴더 안에 있는 경로-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Title</title>
+</head>
+
+<body>
+  <!-- 절대 경로 -->
+  <!-- 서버의 이미지를 받은 이미지 : (오른쪽 클릭) 이미지 주소 복사 -->
+  <img src="https://newsimg.hankookilbo.com/cms/articlerelease/2019/04/29/201904291390027161_3.jpg" alt="고양이, 얼룩이" />
+
+  <!-- 상대 경로 : 현재 있는 폴더 기준 -->
+  <img src="/1.images/005cat.jpg" style="width: 200px; height: auto" />
+
+  <!-- alt란? 이미지가 정상적으로 안 보여질 때 이 정보를 보여준다.-->
+  <img src="https://newsimg.hankookilbo.com/cms/articlerelease/2019/04/29/201904291390027161_3.jpg" alt="고양이, 얼룩이">
+
+  <!-- 인라인 방식 css : style -->
+  <!-- auto : 가로 px에 맞춰 그림을 보여준다. -->
+  <img src="/1.images/005cat.jpg" style="width:200px; height:auto;">
+
+</body>
+
+
+</html>

@@ -1,0 +1,63 @@
+<!-- table 정석대로 쓰는 법 : thead, tbody, tfoot -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px 10px;
+        }
+
+        th {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <thead>
+            <!-- thead : head를 쓸 때 쓴다. 정석대로 쓰기  -->
+            <tr>
+                <!-- 기다란 행 : tr -->
+                <th>이름</th>
+                <!-- 행 안에 요소 하나하나 -->
+                <th>이메일</th>
+                <th>연락처</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- tbody : data를 쓸 때 쓴다.  -->
+            <tr>
+                <!-- 두 번째 행 -->
+                <td>유재석</td>
+                <td>brandee@gmail.com</td>
+                <td>777-777-7777</td>
+            </tr>
+            <tr>
+                <td>방정식</td>
+                <td>math1357@gmail.com</td>
+                <td>000-000-0000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- tfoot : 마지막 집계 등을 쓸 때 쓴다. 정석대로 쓰기 -->
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

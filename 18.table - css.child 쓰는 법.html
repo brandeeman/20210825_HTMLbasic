@@ -1,0 +1,105 @@
+<!--table css 맛보기용 :  tr:nth-child(odd)>td -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px 10px;
+        }
+
+        th {
+            background-color: cadetblue;
+        }
+
+        tr:nth-child(odd)>td {
+            background-color: grey;
+        }
+
+        /* 모든 tr을 찾는데, 홀수행의 tr만 찾겠다. */
+        tr:nth-child(even)>td {
+            background-color: green;
+        }
+
+        /* 모든 tr을 찾는데, 짝수행의 tr만 찾겠다. */
+        tr>td:nth-child(2),
+        tr>th:nth-child(2) {
+            background-color: yellow;
+            text-align: right;
+        }
+
+        /* tr에서 td와 th를 찾아라. */
+        tr:nth-child(1)>th:nth-child(3) {
+            background-color: red;
+        }
+
+        tr:nth-child(3)>td:nth-child(3) {
+            background-color: red;
+        }
+
+        tr:nth-child(1)>th:nth-child(2) {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>이름</th>
+            <th>이메일</th>
+            <th>연락처</th>
+        </tr>
+        <tr>
+            <td>유재석</td>
+            <td>brandee@gmail.com</td>
+            <td>777-777-7777</td>
+        </tr>
+        <tr>
+            <td>방정식</td>
+            <td>math1357@gmail.com</td>
+            <td>000-000-0000</td>
+        </tr>
+        <tr>
+            <td>방정식</td>
+            <td>math1357@gmail.com</td>
+            <td>000-000-0000</td>
+        </tr>
+        <tr>
+            <td>방정식</td>
+            <td>math1357@gmail.com</td>
+            <td>000-000-0000</td>
+        </tr>
+        <tr>
+            <td>방정식</td>
+            <td>math1357@gmail.com</td>
+            <td>000-000-0000</td>
+        </tr>
+        <tr>
+            <td>방정식</td>
+            <td>math1357@gmail.com</td>
+            <td>000-000-0000</td>
+        </tr>
+        <tr>
+            <td>방정식</td>
+            <td>math1357@gmail.com</td>
+            <td>000-000-0000</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+*Dom tree 구조
+
+<dom> : html의 tree 구조. dom tree
+html
+head / 
+body
+section
+p / ul
+li
+
+---

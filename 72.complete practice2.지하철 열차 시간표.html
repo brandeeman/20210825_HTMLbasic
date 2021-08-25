@@ -1,0 +1,101 @@
+<!-- 문제 : table로 열차의 시간표를 만드시오. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="margin-left:30px; margin-right: 500px; margin-top: 100px;">
+        <h1>문제 : 열차 시간표를 만드시오.</h1>
+        <table style="width:100%;">
+            <tr>
+                <th rowspan="2">출발역</th>
+                <th rowspan="2">도착역</th>
+                <th colspan="2" style="background-color: darkcyan;">현재운임</th>
+                <th colspan="2" style="background-color: darkorange;">2022년 중앙선 전 구간 개통 시<br> 청량리~서원주 구간 '준고속 서비스'</th>
+            </tr>
+            <tr>
+                <th style="background-color: darkcyan;">일반실(A)</th>
+                <th style="background-color: darkcyan;">우등실</th>
+                <th style="background-color: darkorange;">일반실(B)</th>
+                <th style="background-color: darkorange;">우등실</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;">청량리</td>
+                <td style="text-align: center;">원주</td>
+                <td style="background-color: darkcyan; text-align: right;">10,100</td>
+                <td style="background-color: darkcyan; text-align: right">13,100</td>
+                <td style="background-color: darkorange; text-align: right">13,300</td>
+                <td style="background-color: darkorange; text-align: right">16,300</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">양평</td>
+                <td style="text-align: center;">원주</td>
+                <td style="background-color: darkcyan; text-align: right">8,400</td>
+                <td style="background-color: darkcyan; text-align: right">11,400</td>
+                <td style="background-color: darkorange; text-align: right">8,400</td>
+                <td style="background-color: darkorange; text-align: right">11,400</td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">원주</td>
+                <td style="text-align: center;">제천</td>
+                <td style="background-color: darkcyan; text-align: right">8,400</td>
+                <td style="background-color: darkcyan; text-align: right">11,400</td>
+                <td style="background-color: darkorange; text-align: right">8,400</td>
+                <td style="background-color: darkorange; text-align: right">11,400</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">원주</td>
+                <td style="text-align: center;">단양</td>
+                <td style="background-color: darkcyan; text-align: right">10,400</td>
+                <td style="background-color: darkcyan; text-align: right">13,400</td>
+                <td style="background-color: darkorange; text-align: right">10,400</td>
+                <td style="background-color: darkorange; text-align: right">13,400</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">원주</td>
+                <td style="text-align: center;">풍기</td>
+                <td style="background-color: darkcyan; text-align: right">11,700</td>
+                <td style="background-color: darkcyan; text-align: right">14,400</td>
+                <td style="background-color: darkorange; text-align: right">11,700</td>
+                <td style="background-color: darkorange; text-align: right">14,700</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">영주</td>
+                <td style="text-align: center;">안동</td>
+                <td style="background-color: darkcyan; text-align: right">14,900</td>
+                <td style="background-color: darkcyan; text-align: right">17,900</td>
+                <td style="background-color: darkorange; text-align: right">14,900</td>
+                <td style="background-color: darkorange; text-align: right">17,900</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">양평</td>
+                <td style="text-align: center;">원주</td>
+                <td style="background-color: darkcyan; text-align: right">8,400</td>
+                <td style="background-color: darkcyan; text-align: right">11,400</td>
+                <td style="background-color: darkorange; text-align: right">8,400</td>
+                <td style="background-color: darkorange; text-align: right">11,400</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

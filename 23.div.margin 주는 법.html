@@ -1,0 +1,35 @@
+<!-- div란? 하나의 블록이다. -->
+<!-- 기본 : 세로 -->
+<!-- 블락 요소 : 예)p태그. div태그(철저하게 레이아웃 잡아주는 태그)-->
+<!-- div에는 모든 것을 다 넣을 수 있다. -->
+
+<!-- 인라인 요소 : 특정 단어만 다른 스타일을 적용하고 싶다. 예)span -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="background-color: green;">이 문단은 블록 객체입니다. 배경 색을 입혔습니다.</p>
+    <p>이 문단은 블록 객체입니다. <span style="background-color: yellow;">배경 색</span>을 입혔습니다.</p>
+
+    <div>
+        <h1>Block 요소</h1>
+    </div>
+    <div style="background-color: green; width:50%;">
+        <h1>Block 요소2</h1>
+    </div>
+</body>
+
+</html>
